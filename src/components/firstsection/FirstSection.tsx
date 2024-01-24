@@ -4,6 +4,12 @@ import tracking from './tracking.svg';
 import warning from './warning.svg';
 
 const FirstSection:React.FC<{}> = () => {
+
+     const handleLinkClick = (event: React.MouseEvent<HTMLAnchorElement>) => {
+        window.open ('https://50d72d-5.myshopify.com/password', '_blank');
+    };
+
+
     return (
         <div>
            <div className="person-name">
@@ -40,8 +46,8 @@ const FirstSection:React.FC<{}> = () => {
                     <div className="first-line">
                     <img src={tracking} alt="tracking-icon" className="tracking-icon" />
                         Your Tracking Link has been generated</div>
-                    <p className="second-line">Include the Link to Your Store's Navigation Menu.</p>
-                </div>
+                    <p className="second-line">Include the <a className="link" target="_blank" href="#" onClick={handleLinkClick}>Link</a>  to Your Store's Navigation Menu.</p>
+                                    </div>
                 <div className="card-1-button-container">
                     <button className="card-3-first-button">Copy Link</button>
                     <button className="card-1-button">Go To Navigation Menu</button>

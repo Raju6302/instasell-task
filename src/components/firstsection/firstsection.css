@@ -57,13 +57,13 @@
     .first-line {
         color: #4A4A4A;
         font-weight: 600;
-        font-size: 14px;
+        font-size: 15px;
     }
     
     .second-line {
         color: #4A4A4A;
         font-weight: 400;
-        font-size: 13px;
+        font-size: 14px;
     }
     
     
@@ -109,3 +109,10 @@
         border: 0.66px solid lightgrey;
     }
     
+
+    .link {
+        color: blue;
+    }
+
+    /* target="_blank" rel="noopener noreferrer"
+                    style={{color: 'blue'}} */
