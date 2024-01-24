@@ -38,7 +38,7 @@ const FirstSection:React.FC<{}> = () => {
             <div className="paragraph-button-container">
                 <div className="card-1-paragraph-conatainer">
                     <div className="first-line">
-                    <img src={tracking} alt="tracking-icon" />
+                    <img src={tracking} alt="tracking-icon" className="tracking-icon" />
                         Your Tracking Link has been generated</div>
                     <p className="second-line">Include the Link to Your Store's Navigation Menu.</p>
                 </div>

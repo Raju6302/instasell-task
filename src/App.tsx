@@ -2,6 +2,7 @@ import NavBar from "./components/Navbar/Navbar";
 import FirstSection from "./components/firstsection/FirstSection";
 import SecondSection from "./components/secondsection/Secondsection";
 import ThirdSection from "./components/thirdsection/ThirdSection";
+import './App.css'
 
 function App() {
   return (

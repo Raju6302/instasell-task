@@ -69,9 +69,14 @@
     
     .warning-icon {
         width: 18px;
-        height: 13px;
+        height: 15px;
         color: #4A4A4A;
         
+    }
+
+    .tracking-icon {
+        width: 15px;
+        height: 13px;
     }
     
     .card-1-paragraph-conatainer {

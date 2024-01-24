@@ -3,7 +3,6 @@ import {Chart, ArcElement, Tooltip, Legend,} from 'chart.js';
 import order from './orders.svg';
 import eye from './eye.svg'
 import { Doughnut } from "react-chartjs-2";
-import customize from './customizetime.svg'
 
 Chart.register(
     ArcElement,
@@ -95,17 +94,21 @@ const options = {
                 </div>
                 <div className="order-tracking-header">
                     <div className="box-3-order-box1">
-                        <p className="order-msg">Orders</p>
-                        <div className="number-80-header">
-                        <p className="number-80">80</p>
-                        <img src={order}alt="orders-svg" className="order-icon"/>
+                        <div className="orders-msg">
+                            <p className="order-message">Orders</p>
+                        </div >
+                        <div className="order-icon-80-header">
+                           <div className="number-80">80</div>
+                            <img src={order} alt="order-icon" className="order-icon"/>
                         </div>
                     </div>
                     <div className="box-3-order-box2">
-                        <p className="tracking-msg">Tracking Page Views</p>
-                        <div className="number-44-header"> 
-                        <p className="number-44">44</p>
-                        <img src={eye} alt="eye-icon" className="eye-icon" />
+                    <div className="orders-msg">
+                            <p className="order-message">Tracking Page View</p>
+                        </div >
+                        <div className="order-icon-80-header">
+                           <div className="number-80">44</div>
+                            <img src={eye} alt="order-icon" className="order-icon"/>
                         </div>
                     </div>
                 </div>
