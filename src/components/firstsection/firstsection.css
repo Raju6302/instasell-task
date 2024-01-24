@@ -1,0 +1,106 @@
+.person-name {
+    width: 292px;
+    height: 32px;
+    margin-left: 68px; 
+    margin-top: 44px;
+    color: #4A4A4A;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: center;
+    }
+    
+    .section-1-icons {
+        width: 5px;
+        height: 5px;
+        color: #4A4A4A;
+    }
+    
+    .card-header {
+        display: flex;
+        column-gap: 16px;
+    }
+    
+    .card-1 {
+        margin-left: 68px; 
+    }
+    
+    .card-1, .card-2, .card-3 {
+        width: 332px;
+        height: 168px;
+        margin-top: 32px;
+        border-radius: 12px;
+        border: 0.66px solid lightgrey;
+        display: inline-block;
+    }
+    
+    
+    .card-2 {
+        background-color: #FFF8DB;
+    }
+    
+    .card-3 {
+        background-color: #EAF4FF;
+    }
+    
+    
+    .paragraph-button-container {
+        width: 332px;
+        height: 168px;
+        padding: 16px 16px 24px 16px;
+        display:flex;
+        flex-direction: column;
+        row-gap: 32px;
+    }
+    
+    .first-line {
+        color: #4A4A4A;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    
+    .second-line {
+        color: #4A4A4A;
+        font-weight: 400;
+        font-size: 13px;
+    }
+    
+    
+    .warning-icon {
+        width: 18px;
+        height: 13px;
+        color: #4A4A4A;
+        
+    }
+    
+    .card-1-paragraph-conatainer {
+        width: 300px;
+        height: 68px;
+    }
+    
+    .card-1-button-container {
+        width: 300px;
+        height: 28px;
+    }
+    
+    .card-1-button {
+        background-color: #303030;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 12px;
+        border-radius: 8px;
+        padding: 6px;
+    }
+    
+    .card-3-first-button {
+        width: 82px;
+        font-size: 12px;
+        border-radius: 8px;
+        background-color: #FFFFFF;
+        color: #303030;
+        margin-right: 4px;
+        padding: 6px;
+        border: 0.66px solid lightgrey;
+    }
+    
